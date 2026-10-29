@@ -1,0 +1,9 @@
+package net.budoumiao.htpvzy;
+
+public final class Constants {
+    public static final String ID = "{{ id }}";
+    public static final String CLIENT_PROXY = "{{ group }}.client.ClientProxy";
+    public static final String SERVER_PROXY = "{{ group }}.server.ServerProxy";
+
+    private Constants() {}
+}

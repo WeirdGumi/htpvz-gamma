@@ -1,0 +1,21 @@
+[versions]
+jabel = "1.0.1-2"
+jspecify = "1.0.1"
+
+mcp = "39-1.12"
+forge = "1.12.2-14.23.5.2864"
+
+blossom = "2.2.0"
+forge-gradle = "7.0.40"
+renamer = "1.1.8"
+
+[libraries]
+jabel = { group = "com.pkware.jabel", name = "jabel-javac-plugin", version.ref = "jabel" }
+jspecify = { group = "org.jspecify", name = "jspecify", version.ref = "jspecify" }
+
+forge = { group = "net.minecraftforge", name = "forge", version.ref = "forge" }
+
+[plugins]
+blossom = { id = "net.kyori.blossom", version.ref = "blossom" }
+forge-gradle = { id = "net.minecraftforge.gradle", version.ref = "forge-gradle" }
+renamer = { id = "net.minecraftforge.renamer", version.ref = "renamer" }
